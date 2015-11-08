@@ -1,0 +1,696 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mo",
+				"moveIn"
+			],
+			[
+				"off",
+				"offset-right"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"trans",
+				"translate"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"fo",
+				"footerCtlr"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"in",
+				"initial"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"bor",
+				"browserSync"
+			],
+			[
+				"remo",
+				"removeClass"
+			],
+			[
+				"title",
+				"titleBox"
+			],
+			[
+				"eve",
+				"eventImg"
+			],
+			[
+				"docum",
+				"document"
+			],
+			[
+				"docu",
+				"document"
+			],
+			[
+				"document",
+				"document-img"
+			],
+			[
+				"even",
+				"eventContent"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"event",
+				"eventImg"
+			],
+			[
+				"con",
+				"containerHeight"
+			],
+			[
+				"post",
+				"post-footer"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"ea",
+				"ease-in-out"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"re",
+				"resources"
+			],
+			[
+				"cu",
+				"current_password"
+			],
+			[
+				"pass",
+				"password_confirmation"
+			],
+			[
+				"passw",
+				"password_confirmation"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"form-",
+				"form-horizontal"
+			],
+			[
+				"pas",
+				"password_confirmation"
+			],
+			[
+				"sk",
+				"skew-input"
+			],
+			[
+				"reso",
+				"resource_name"
+			],
+			[
+				"res",
+				"resource_name"
+			],
+			[
+				"firs",
+				"first_name"
+			],
+			[
+				"find",
+				"findNotNull"
+			],
+			[
+				"muta",
+				"mutato"
+			],
+			[
+				"pri",
+				"printOut"
+			],
+			[
+				"appance",
+				"moz-appearance"
+			],
+			[
+				"col",
+				"col-md-4"
+			],
+			[
+				"GL",
+				"GL_PI"
+			],
+			[
+				"rot1",
+				"rot1on"
+			],
+			[
+				"glut",
+				"glutSolidCube"
+			],
+			[
+				"glu",
+				"glutSolidCube"
+			],
+			[
+				"glP",
+				"glPushMatrix"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"to",
+				"toggleClass"
+			],
+			[
+				"fa",
+				"faSearch"
+			],
+			[
+				"se",
+				"search-field"
+			],
+			[
+				"webkit-trans",
+				"webkit-transition"
+			],
+			[
+				"H",
+				"Hírek"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"Re",
+				"RenderAnyad"
+			],
+			[
+				"Render",
+				"rendering"
+			],
+			[
+				"GL_",
+				"GL_POLYGON"
+			],
+			[
+				"Rend",
+				"RenderTriangle"
+			],
+			[
+				"en",
+				"encrypt"
+			],
+			[
+				"ca",
+				"caesar_cipher"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1319,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 1621,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/posts_controller.rb",
+			"settings":
+			{
+				"buffer_size": 217,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/posts/index.html.slim",
+			"settings":
+			{
+				"buffer_size": 34,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"gi",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/sas/Programok/robertB/robertB.sublime-project",
+		"/home/sas/Programok/ehok_rails4/Ehok.sublime-workspace",
+		"/home/sas/Programok/Dok/Static/app/css/styles.css",
+		"/home/sas/Programok/Dok/Static/index.html",
+		"/home/sas/Programok/Dok/Static/sass/styles.scss",
+		"/home/sas/Programok/Dok/Static/sass/_header.sass",
+		"/home/sas/Programok/ehokmozi/app/assets/stylesheets/custom.css.sass",
+		"/home/sas/Programok/ehokmozi/app/views/performances/reservations.html.slim",
+		"/home/sas/Programok/ehokmozi/vendor/assets/components/fullpage.js/jquery.fullPage.css",
+		"/home/sas/Programok/ehokmozi/app/assets/javascripts/custom.js",
+		"/home/sas/Programok/ehokmozi/app/views/layouts/_landing.html.slim",
+		"/home/sas/Programok/ehokmozi/app/views/performances/_performance.html.slim",
+		"/home/sas/Programok/ehokmozi/app/views/layouts/_floating_menu.html.slim",
+		"/home/sas/Programok/ehokmozi/app/views/performances/welcome.html.slim",
+		"/home/sas/Programok/ehokmozi/bower.json",
+		"/home/sas/Dropbox/SZTE_EHOK_logo_szines.png",
+		"/home/sas/Programok/ehok_rails4/app/views/events/_event.html.slim",
+		"/home/sas/Programok/ehok_rails4/app/assets/javascripts/application.js",
+		"/home/sas/Programok/ehok_rails4/app/assets/stylesheets/01-base/base.sass",
+		"/home/sas/Programok/ehok_rails4/app/views/events/index.html.slim",
+		"/home/sas/Programok/ehok_rails4/app/views/posts/index.html.slim",
+		"/home/sas/Programok/ehok_rails4/config/locales/hu.yml",
+		"/home/sas/Programok/ehok_rails4/config/locales/active_admin.hu.yml",
+		"/home/sas/Programok/ehok_rails4/app/assets/stylesheets/03-section/footer.sass",
+		"/home/sas/Programok/ehok_rails4/app/assets/stylesheets/03-section/pinned.sass",
+		"/home/sas/Programok/ehok_rails4/app/assets/stylesheets/03-section/sidebar.sass",
+		"/home/sas/Programok/ehok_rails4/app/views/events/_calendar.html.haml",
+		"/home/sas/Programok/ehok_rails4/app/views/layouts/application.html.slim",
+		"/home/sas/Programok/ehok_rails4/app/assets/stylesheets/03-section/post-feed.sass",
+		"/home/sas/Programok/ehok_rails4/app/assets/stylesheets/application.css.scss",
+		"/home/sas/Programok/ehok_rails4/app/views/welcome/_pinned.html.slim",
+		"/home/sas/Programok/ehok_rails4/Gemfile",
+		"/home/sas/Programok/ehok_rails4/app/views/footer/_footer.html.slim",
+		"/home/sas/Programok/ehok_rails4/app/assets/stylesheets/03-section/header.sass",
+		"/home/sas/Programok/ehok_rails4/app/assets/stylesheets/03-section/post-card.sass",
+		"/home/sas/Programok/ehok_rails4/.gitignore",
+		"/home/sas/Programok/ehokmozi/app/views/devise/registrations/edit.html.slim",
+		"/home/sas/Programok/ehokmozi/app/views/devise/registrations/new.html.slim",
+		"/home/sas/Programok/ehokmozi/app/views/devise/sessions/new.html.slim",
+		"/home/sas/Programok/ehokmozi/app/views/devise/passwords/new.html.slim",
+		"/home/sas/Programok/ehokmozi/config/initializers/simple_form_bootstrap.rb",
+		"/home/sas/Programok/ehokmozi/Gemfile",
+		"/home/sas/Programok/ACM/dimat.c",
+		"/home/sas/Programok/ACM/fos.cpp",
+		"/home/sas/Programok/ACM/be.txt",
+		"/home/sas/Programok/ACM/ki.txt",
+		"/home/sas/Programok/ACM/fancy.cpp",
+		"/home/sas/Programok/ehok_rails4/app/views/welcome/_header.html.slim",
+		"/home/sas/Programok/ehok_rails4/app/views/posts/_post_card.html.slim",
+		"/home/sas/Programok/ehok_rails4/app/views/welcome/_post_card.html.slim",
+		"/home/sas/Programok/Számgráf/Makefile",
+		"/home/sas/Programok/Számgráf/tegla01.c",
+		"/home/sas/Programok/Számgráf/tank2.c",
+		"/home/sas/Programok/Számgráf/tesztek.c",
+		"/home/sas/Programok/Számgráf/helicopter.c",
+		"/home/sas/Programok/Számgráf/inga.c",
+		"/home/sas/Programok/Számgráf/alap3.c",
+		"/home/sas/Programok/Számgráf/kup.c",
+		"/home/sas/Letöltések/xampp-linux-x64-5.6.12-0-installer.run",
+		"/home/sas/Programok/ehok_rails4/app/assets/stylesheets/03-section/document-cat.sass",
+		"/home/sas/Programok/ehok_rails4/app/views/document_categories/_document_category.html.slim",
+		"/home/sas/Programok/ehok_rails4/app/views/document_categories/index.html.erb",
+		"/home/sas/Programok/show.html.slim",
+		"/home/sas/Programok/ehok_rails4/app/views/layouts/application_old.html.erb",
+		"/home/sas/Programok/ehok_rails4/app/views/posts/_post.html.slim",
+		"/home/sas/Programok/ehok_rails4/app/views/posts/_post_show.html.slim",
+		"/home/sas/Programok/ACM/marbles.cpp",
+		"/home/sas/Letöltések/SPOJ 3442 The Last Digit.cpp",
+		"/home/sas/Programok/ACM/last_digit.cpp",
+		"/home/sas/Programok/ehok_rails4/app/views/welcome/index.html.slim",
+		"/home/sas/Programok/ehok_rails4/app/views/welcome/_event_list.html.slim",
+		"/home/sas/Programok/ehok_rails4/app/assets/stylesheets/header.sass",
+		"/home/sas/Programok/ehok_rails4/app/assets/stylesheets/base.sass",
+		"/home/sas/Programok/ACM/feynman.cpp",
+		"/home/sas/Programok/ACM/geoprob.cpp",
+		"/home/sas/Programok/ACM/revnum.cpp",
+		"/home/sas/Programok/ehok_rails4/app/assets/stylesheets/helper.scss",
+		"/home/sas/.config/sublime-text-2/Packages/Terminal/Default (Linux).sublime-keymap",
+		"/opt/RubyMine/bin/rubymine.vmoptions",
+		"/home/sas/Programok/RailsWp/Gemfile",
+		"/home/sas/Programok/RailsWp/app/apps/themes/rails_wp/views/admin/index.html.erb",
+		"/opt/RubyMine/bin/rubymine.sh",
+		"/home/sas/Letöltések/RubyMine/bin/rubymine.sh",
+		"/home/sas/Letöltések/RubyMine/bin/rubymine.vmoptions",
+		"/home/sas/Letöltések/RubyMine/bin/rubymine64.vmoptions",
+		"/home/sas/Dokumentumok/sokszog.c",
+		"/home/sas/Dokumentumok/ceaser.rb",
+		"/home/sas/Dokumentumok/alap1.c",
+		"/home/sas/Dokumentumok/alap2.c",
+		"/home/sas/Dokumentumok/Makefile",
+		"/home/sas/Dokumentumok/simple.c",
+		"/home/sas/Dokumentumok/teszt.cpp",
+		"/home/sas/Dokumentumok/tank.c",
+		"/home/sas/Dokumentumok/Defiance.S03E13.HDTV.x264-KILLERS.srt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"button",
+			"div",
+			"right",
+			"left",
+			"Something Test",
+			"row",
+			"container",
+			"styles",
+			"slide",
+			"img",
+			"15px",
+			"only screen",
+			"15px",
+			"10px",
+			"margin-top:50px",
+			"23px",
+			"28px",
+			"padding",
+			"ease-in-out",
+			"last_name",
+			"first_name",
+			"alert",
+			"padding",
+			"margin",
+			"/",
+			"mutató",
+			"2,3",
+			"IdlePrint",
+			"glRotatef",
+			"#dfdede",
+			"#023f80",
+			"#c79b0a",
+			"gold",
+			"#c79b0a",
+			"#023f80",
+			"article.post\n  header.post-header\n	  h1.post-title Teszteleke mert tesztelni jó\n	  p.post-meta.muted SZTE EHÖK, 2015. augusztus 15. 19:38\n  section.post-content\n    p\n      | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dapibus, dolor at venenatis ultrices, massa nisl molestie dui, hendrerit semper nulla arcu non dolor. Proin vel nulla quis leo sollicitudin maximus| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dapibus, dolor at venenatis ultrices, massa nisl molestie dui, hendrerit semper nulla arcu non dolor. Proin vel nulla quis leo sollicitudin maximus| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dapibus, dolor at venenatis ultrices, massa nisl molestie dui, hendrerit semper nulla arcu non dolor. Proin vel nulla quis leo sollicitudin maximus\n  footer.post-footer\n    a.post-btn href=\"#\"\n      | Bővebben",
+			".col-md-12\n",
+			"h4",
+			"right",
+			"event-card-img",
+			"\n    ",
+			"glVertex2f",
+			"0",
+			"glVertex2f",
+			"	<"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 1319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								924,
+								924
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 1621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								51,
+								51
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/posts_controller.rb",
+					"settings":
+					{
+						"buffer_size": 217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								142,
+								142
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/posts/index.html.slim",
+					"settings":
+					{
+						"buffer_size": 34,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								33,
+								33
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/sas/Programok/ehok_rails4/Ehok.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 210.0,
+	"status_bar_visible": true
+}
