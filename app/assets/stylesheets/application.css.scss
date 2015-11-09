@@ -12,7 +12,11 @@
  *
  */
 
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
 @import "01-base/base";
 
 @import "03-sections/header";
 @import "03-sections/posts";
+@import "03-sections/footer";
