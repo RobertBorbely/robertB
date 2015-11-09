@@ -1,0 +1,13 @@
+nav.main-nav
+  .container
+    .logo-container   
+      =link_to root_path do
+        =image_tag "Blog_logo.png",class: 'logo-img'
+    .menu-element-container
+      ul
+        li
+          =link_to 'blog', '#'
+        li
+          =link_to 'projects', '#'
+        li
+          =link_to 'contact', '#'

@@ -1,0 +1,42 @@
+$grey: #213a42
+$turqis: #48b0d2
+
+$ease: ease-in-out
+
+$raleway: 'Raleway', sans-serif
+
+@import url(https://fonts.googleapis.com/css?family=Raleway)
+
+body
+  font-size: 16px
+  font-family: $raleway
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+  font-weight: bold
+  text-transform: uppercase
+
+a
+  color: $grey
+  text-decoration: none
+
+  &:hover
+    color: $turqis
+    text-decoration: none
+    transition: color .3s $ease
+
+  &:active
+    color: $turqis
+    font-weight: bold
+    text-decoration: none
+
+.container
+  max-width: 1170px
+  margin: 0 auto
+  overflow: hidden
+
