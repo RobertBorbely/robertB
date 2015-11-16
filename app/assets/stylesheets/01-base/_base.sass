@@ -5,7 +5,7 @@ $ease: ease-in-out
 
 $raleway: 'Raleway', sans-serif
 
-@import url(https://fonts.googleapis.com/css?family=Raleway)
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900,300)
 
 *
   box-sizing: border-box
@@ -45,13 +45,37 @@ a
   margin: 0 auto
   overflow: hidden
 
+.date
+  margin: 0
+  font-size: 12px
+  font-style: italic
+
+hr
+  width: 4em
+  display: block
+  height: 2px
+  border: 0
+  border-top: 2px solid $turqis
+  margin: 2rem 0
+
 .col-40
   width: 40%
   float: left
   padding: 0 15px
+
+  @media all and (max-width: 1024px)
+    width: 100%
+
+  
+
+
 
 .col-30
   width: 30% 
   float: left
   padding: 0 15px
 
+  @media all and (max-width: 1024px)
+    width: 50%
+  @media all and (max-width: 414px)
+    width: 100%

@@ -1,4 +1,15 @@
-h1 This is the show page!
-
-=@post.title
-=@post.content
+article.post
+  .container
+    header.post-header
+      p.date = @post.created_at.strftime("%A %b %d")
+      h1 = @post.title
+      hr
+    section.post-content
+      = @post.content
+      hr
+    footer.post-footer
+      h3 ="Share the #{@post.title}"
+      .social-container
+        i.fa.fa-facebook
+        i.fa.fa-twitter
+      hr
