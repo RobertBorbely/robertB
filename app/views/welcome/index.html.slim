@@ -1,0 +1,28 @@
+section.container.home-content
+  .col-40
+    h2 Something about me
+    hr
+    p
+      | My name is Borbély Róbert. I'm learning web development and web desing for one and a half year now and here is the time to showcase my work and share my learning experience with the community
+    p
+      | At the moment I'm learning web development on my own and do some freelance work for the university. You can check out my on going projects 
+      a href="#"
+        | here.
+
+    p
+      | If you interested in my design work you can check out my 
+      a href="https://www.etsy.com/shop/jefftheraccoon" Etsy page. 
+      | I'm designing and making Macbook decals.
+
+  .col-30
+    h2 Something to read
+    hr
+    - @posts.each do |post|
+      .list-wrapper
+        h3 = link_to post.title, post
+        p.date = post.created_at.strftime("%A, %b %d")
+
+    = link_to 'View all article', posts_path, class: "welcome-link"
+  .col-30
+    h2 Something to see
+    hr
