@@ -39,13 +39,17 @@ class PostsController < ApplicationController
     @post.destroy
   end
 
+  def should_generate_new_friendly_id?
+    slug.blank? || title_changed?
+  end
+
   private
 
     def findby_id
-      @post = Post.find(params[:id])
+      @post = Post.friendly.find(params[:id])
     end
 
     def post_params
-      params.require(:post).permit(:title, :content)
+      params.require(:post).permit(:title, :content, :slug)
     end
 end
