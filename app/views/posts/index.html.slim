@@ -7,3 +7,5 @@ section.index-section
         p.date= post.created_at.strftime("%A %b %d")
         h2= link_to post.title, post
         hr
+  footer.container
+    = will_paginate @posts
