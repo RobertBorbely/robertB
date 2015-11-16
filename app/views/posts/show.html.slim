@@ -5,7 +5,7 @@ article.post
       h1 = @post.title
       hr
     section.post-content
-      = @post.content
+      = markdown @post.content
       hr
     footer.post-footer
       h3 ="Share the #{@post.title}"
