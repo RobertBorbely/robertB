@@ -1,0 +1,12 @@
+section.index-section
+  header
+    h3 Projects
+  section.content.container
+    - @projects.each do |project|
+      .title.wrapper
+        p.date= project.created_at.strftime("%A %b %d")
+        h2= link_to project.title, project
+        hr
+  footer.container
+    .apple_pagination
+      = will_paginate @projects, previous_label: '<i class="fa fa-arrow-left"></i>'.html_safe, next_label: '<i class="fa fa-arrow-right"></i>'.html_safe, container: false

@@ -1,3 +1,15 @@
-h1=@project.title
-p= markdown @project.description
-=link_to @project.title , @project.link
+article.post
+  .container
+    header.post-header
+      p.date = @project.created_at.strftime("%A %b %d")
+      h1 = @project.title
+      hr
+    section.post-content
+      = markdown @project.description
+      hr
+    footer.post-footer
+      h3 ="Share the #{@project.title}"
+      .social-container
+        i.fa.fa-facebook
+        i.fa.fa-twitter
+      hr

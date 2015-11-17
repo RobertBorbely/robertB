@@ -2,7 +2,7 @@ class ProjectsController < ApplicationController
   before_action :find_by_id, only: [:show, :edit,:update, :destroy]
 
   def index
-    @projects = Project.all.order("created_at desc").paginate(page: params[:page], per_page: 2)
+    @projects = Project.all.order("created_at desc").paginate(page: params[:page], per_page: 10)
   end
 
   def show
@@ -26,7 +26,7 @@ class ProjectsController < ApplicationController
   end
 
   def update
-    if @project.update
+    if @project.update project_params
       redirect_to @project, notice: 'Sikeresen módosítottad a projekted! :)'
     else
       render 'edit'

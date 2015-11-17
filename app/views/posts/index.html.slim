@@ -1,6 +1,6 @@
 section.index-section
   header
-    h3 Blog
+    h3 Stuff I've written
   section.content.container
     - @posts.each do |post|
       .title.wrapper
@@ -8,4 +8,5 @@ section.index-section
         h2= link_to post.title, post
         hr
   footer.container
-    = will_paginate @posts
+    .apple_pagination
+      = will_paginate @posts, previous_label: '<i class="fa fa-arrow-left"></i>'.html_safe, next_label: '<i class="fa fa-arrow-right"></i>'.html_safe, container: false

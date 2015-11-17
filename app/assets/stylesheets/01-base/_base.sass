@@ -79,3 +79,25 @@ hr
     width: 50%
   @media all and (max-width: 414px)
     width: 100%
+
+.apple_pagination
+  margin: 30px 0
+  .previous_page, .next_page, a
+    border: 1px solid $turqis
+    padding: 5px
+
+  a, .current, .disabled
+    margin: 0 5px
+
+  .disabled
+    border: none
+
+  a:hover
+    background: $turqis
+    transition: all .4s $ease
+    color: white
+
+  .current
+    background: $turqis
+    padding: 5px
+    color: white

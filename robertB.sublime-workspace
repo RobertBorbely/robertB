@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"no",
+				"normal"
+			],
+			[
 				"HTM",
 				"HTMLwithPygments"
 			],
@@ -280,66 +284,18 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/posts/show.html.slim",
+			"file": "app/assets/stylesheets/03-sections/_posts.sass",
 			"settings":
 			{
-				"buffer_size": 371,
+				"buffer_size": 666,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/assets/stylesheets/application.css.scss",
+			"file": "app/assets/stylesheets/03-sections/_header.sass",
 			"settings":
 			{
-				"buffer_size": 886,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/assets/stylesheets/03-sections/_pygments.css.scss",
-			"settings":
-			{
-				"buffer_size": 3871,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/helpers/application_helper.rb",
-			"settings":
-			{
-				"buffer_size": 542,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/posts/_disqus.html.erb",
-			"settings":
-			{
-				"buffer_size": 625,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 1463,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/post.rb",
-			"settings":
-			{
-				"buffer_size": 90,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/posts_controller.rb",
-			"settings":
-			{
-				"buffer_size": 935,
+				"buffer_size": 402,
 				"line_ending": "Unix"
 			}
 		},
@@ -347,7 +303,7 @@
 			"file": "app/views/posts/index.html.slim",
 			"settings":
 			{
-				"buffer_size": 267,
+				"buffer_size": 281,
 				"line_ending": "Unix"
 			}
 		}
@@ -408,30 +364,40 @@
 	},
 	"file_history":
 	[
+		"/home/sas/Programok/robertB/config/routes.rb",
+		"/home/sas/Programok/robertB/app/views/projects/index.html.slim",
+		"/home/sas/Programok/robertB/app/controllers/projects_controller.rb",
+		"/home/sas/Programok/robertB/app/controllers/posts_controller.rb",
+		"/home/sas/Programok/robertB/app/views/projects/new.html.slim",
+		"/home/sas/Programok/robertB/app/views/projects/_form.html.slim",
+		"/home/sas/Programok/robertB/app/views/projects/edit.html.slim",
+		"/home/sas/Programok/robertB/app/views/projects/show.html.slim",
+		"/home/sas/Programok/robertB/app/controllers/welcome_controller.rb",
+		"/home/sas/Programok/robertB/app/views/welcome/index.html.slim",
+		"/home/sas/Programok/robertB/app/views/layouts/_header.html.slim",
+		"/home/sas/Programok/robertB/app/models/project.rb",
+		"/home/sas/Programok/robertB/app/views/posts/show.html.slim",
+		"/home/sas/Programok/robertB/app/assets/stylesheets/application.css.scss",
+		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_pygments.css.scss",
+		"/home/sas/Programok/robertB/app/helpers/application_helper.rb",
+		"/home/sas/Programok/robertB/app/views/posts/_disqus.html.erb",
+		"/home/sas/Programok/robertB/Gemfile",
+		"/home/sas/Programok/robertB/app/models/post.rb",
+		"/home/sas/Programok/robertB/app/views/posts/index.html.slim",
 		"/home/sas/Programok/robertB/app/views/posts/_disqus.erb.slim",
 		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_pygments.sass",
-		"/home/sas/Programok/robertB/app/views/posts/index.html.slim",
 		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_welcome.sass",
 		"/home/sas/Programok/robertB/app/assets/stylesheets/01-base/_base.sass",
 		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_posts.sass",
-		"/home/sas/Programok/robertB/app/controllers/posts_controller.rb",
 		"/home/sas/Programok/robertB/app/views/posts/edit.html.slim",
 		"/home/sas/Programok/robertB/app/views/posts/_form.html.slim",
-		"/home/sas/Programok/robertB/Gemfile",
-		"/home/sas/Programok/robertB/app/helpers/application_helper.rb",
 		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_footer.sass",
-		"/home/sas/Programok/robertB/app/views/welcome/index.html.slim",
-		"/home/sas/Programok/robertB/app/controllers/welcome_controller.rb",
 		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_header.sass",
-		"/home/sas/Programok/robertB/app/views/layouts/_header.html.slim",
 		"/home/sas/Programok/robertB/app/views/layouts/_footer.html.slim",
 		"/home/sas/Programok/robertB/README.md",
 		"/home/sas/Programok/robertB/README.rdoc",
-		"/home/sas/Programok/robertB/app/assets/stylesheets/application.css.scss",
 		"/home/sas/Programok/robertB/app/views/layouts/application.html.slim",
 		"/home/sas/Programok/robertB/app/views/welcome/index.html.erb",
-		"/home/sas/Programok/robertB/config/routes.rb",
-		"/home/sas/Programok/robertB/app/views/posts/show.html.slim",
 		"/home/sas/Programok/robertB/app/views/posts/new.html.slim",
 		"/home/sas/Programok/robertB/app/views/posts/create.html.erb",
 		"/home/sas/Programok/robertB/app/views/posts/update.html.erb",
@@ -525,10 +491,7 @@
 		"/home/sas/Dokumentumok/alap1.c",
 		"/home/sas/Dokumentumok/alap2.c",
 		"/home/sas/Dokumentumok/Makefile",
-		"/home/sas/Dokumentumok/simple.c",
-		"/home/sas/Dokumentumok/teszt.cpp",
-		"/home/sas/Dokumentumok/tank.c",
-		"/home/sas/Dokumentumok/Defiance.S03E13.HDTV.x264-KILLERS.srt"
+		"/home/sas/Dokumentumok/simple.c"
 	],
 	"find":
 	{
@@ -546,6 +509,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"post",
 			"button",
 			"div",
 			"right",
@@ -608,28 +572,28 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/posts/show.html.slim",
+					"file": "app/assets/stylesheets/03-sections/_posts.sass",
 					"settings":
 					{
-						"buffer_size": 371,
+						"buffer_size": 666,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								370,
-								370
+								138,
+								138
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -641,186 +605,23 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/assets/stylesheets/application.css.scss",
+					"file": "app/assets/stylesheets/03-sections/_header.sass",
 					"settings":
 					{
-						"buffer_size": 886,
+						"buffer_size": 402,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								884,
-								884
+								375,
+								375
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/assets/stylesheets/03-sections/_pygments.css.scss",
-					"settings":
-					{
-						"buffer_size": 3871,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								270,
-								270
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/helpers/application_helper.rb",
-					"settings":
-					{
-						"buffer_size": 542,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								217,
-								217
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/views/posts/_disqus.html.erb",
-					"settings":
-					{
-						"buffer_size": 625,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								173,
-								173
-							],
-							[
-								234,
-								234
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "Gemfile",
-					"settings":
-					{
-						"buffer_size": 1463,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1068,
-								1068
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 108.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/models/post.rb",
-					"settings":
-					{
-						"buffer_size": 90,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								70,
-								70
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/controllers/posts_controller.rb",
-					"settings":
-					{
-						"buffer_size": 935,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								214,
-								214
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -831,19 +632,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 2,
 					"file": "app/views/posts/index.html.slim",
 					"settings":
 					{
-						"buffer_size": 267,
+						"buffer_size": 281,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								267,
-								267
+								280,
+								280
 							]
 						],
 						"settings":
