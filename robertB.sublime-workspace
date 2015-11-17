@@ -4,12 +4,28 @@
 		"selected_items":
 		[
 			[
-				"font",
-				"font-size"
+				"HTM",
+				"HTMLwithPygments"
 			],
 			[
 				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"tex",
 				"text-transform"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"font",
+				"font-size"
 			],
 			[
 				"inline",
@@ -60,16 +76,8 @@
 				"footerCtlr"
 			],
 			[
-				"margin",
-				"margin-right"
-			],
-			[
 				"in",
 				"initial"
-			],
-			[
-				"tex",
-				"text-decoration"
 			],
 			[
 				"back",
@@ -272,58 +280,10 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/layouts/_header.html.slim",
+			"file": "app/views/posts/show.html.slim",
 			"settings":
 			{
-				"buffer_size": 299,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/application.html.slim",
-			"settings":
-			{
-				"buffer_size": 415,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/_footer.html.slim",
-			"settings":
-			{
-				"buffer_size": 290,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/assets/stylesheets/03-sections/_footer.sass",
-			"settings":
-			{
-				"buffer_size": 205,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/welcome/index.html.slim",
-			"settings":
-			{
-				"buffer_size": 290,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/assets/stylesheets/03-sections/_header.sass",
-			"settings":
-			{
-				"buffer_size": 399,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 1343,
+				"buffer_size": 371,
 				"line_ending": "Unix"
 			}
 		},
@@ -331,7 +291,63 @@
 			"file": "app/assets/stylesheets/application.css.scss",
 			"settings":
 			{
-				"buffer_size": 823,
+				"buffer_size": 886,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/03-sections/_pygments.css.scss",
+			"settings":
+			{
+				"buffer_size": 3871,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/helpers/application_helper.rb",
+			"settings":
+			{
+				"buffer_size": 542,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/posts/_disqus.html.erb",
+			"settings":
+			{
+				"buffer_size": 625,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1463,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/post.rb",
+			"settings":
+			{
+				"buffer_size": 90,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/posts_controller.rb",
+			"settings":
+			{
+				"buffer_size": 935,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/posts/index.html.slim",
+			"settings":
+			{
+				"buffer_size": 267,
 				"line_ending": "Unix"
 			}
 		}
@@ -392,20 +408,31 @@
 	},
 	"file_history":
 	[
-		"/home/sas/Programok/robertB/app/views/welcome/index.html.erb",
-		"/home/sas/Programok/robertB/app/views/layouts/application.html.slim",
-		"/home/sas/Programok/robertB/app/assets/stylesheets/application.css.scss",
-		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_header.sass",
+		"/home/sas/Programok/robertB/app/views/posts/_disqus.erb.slim",
+		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_pygments.sass",
+		"/home/sas/Programok/robertB/app/views/posts/index.html.slim",
+		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_welcome.sass",
 		"/home/sas/Programok/robertB/app/assets/stylesheets/01-base/_base.sass",
 		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_posts.sass",
-		"/home/sas/Programok/robertB/config/routes.rb",
-		"/home/sas/Programok/robertB/Gemfile",
 		"/home/sas/Programok/robertB/app/controllers/posts_controller.rb",
+		"/home/sas/Programok/robertB/app/views/posts/edit.html.slim",
 		"/home/sas/Programok/robertB/app/views/posts/_form.html.slim",
-		"/home/sas/Programok/robertB/app/views/posts/index.html.slim",
+		"/home/sas/Programok/robertB/Gemfile",
+		"/home/sas/Programok/robertB/app/helpers/application_helper.rb",
+		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_footer.sass",
+		"/home/sas/Programok/robertB/app/views/welcome/index.html.slim",
+		"/home/sas/Programok/robertB/app/controllers/welcome_controller.rb",
+		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_header.sass",
+		"/home/sas/Programok/robertB/app/views/layouts/_header.html.slim",
+		"/home/sas/Programok/robertB/app/views/layouts/_footer.html.slim",
+		"/home/sas/Programok/robertB/README.md",
+		"/home/sas/Programok/robertB/README.rdoc",
+		"/home/sas/Programok/robertB/app/assets/stylesheets/application.css.scss",
+		"/home/sas/Programok/robertB/app/views/layouts/application.html.slim",
+		"/home/sas/Programok/robertB/app/views/welcome/index.html.erb",
+		"/home/sas/Programok/robertB/config/routes.rb",
 		"/home/sas/Programok/robertB/app/views/posts/show.html.slim",
 		"/home/sas/Programok/robertB/app/views/posts/new.html.slim",
-		"/home/sas/Programok/robertB/README.rdoc",
 		"/home/sas/Programok/robertB/app/views/posts/create.html.erb",
 		"/home/sas/Programok/robertB/app/views/posts/update.html.erb",
 		"/home/sas/Programok/robertB/robertB.sublime-project",
@@ -586,18 +613,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/layouts/_header.html.slim",
+					"file": "app/views/posts/show.html.slim",
 					"settings":
 					{
-						"buffer_size": 299,
+						"buffer_size": 371,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								85,
-								85
+								370,
+								370
 							]
 						],
 						"settings":
@@ -614,25 +641,23 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/views/layouts/application.html.slim",
+					"file": "app/assets/stylesheets/application.css.scss",
 					"settings":
 					{
-						"buffer_size": 415,
+						"buffer_size": 886,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								412,
-								412
+								884,
+								884
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -642,25 +667,24 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/views/layouts/_footer.html.slim",
+					"file": "app/assets/stylesheets/03-sections/_pygments.css.scss",
 					"settings":
 					{
-						"buffer_size": 290,
+						"buffer_size": 3871,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								60,
-								60
+								270,
+								270
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -670,25 +694,24 @@
 				},
 				{
 					"buffer": 3,
-					"file": "app/assets/stylesheets/03-sections/_footer.sass",
+					"file": "app/helpers/application_helper.rb",
 					"settings":
 					{
-						"buffer_size": 205,
+						"buffer_size": 542,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								205,
-								205
+								217,
+								217
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -698,25 +721,28 @@
 				},
 				{
 					"buffer": 4,
-					"file": "app/views/welcome/index.html.slim",
+					"file": "app/views/posts/_disqus.html.erb",
 					"settings":
 					{
-						"buffer_size": 290,
+						"buffer_size": 625,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								38,
-								38
+								173,
+								173
+							],
+							[
+								234,
+								234
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -726,46 +752,44 @@
 				},
 				{
 					"buffer": 5,
-					"file": "app/assets/stylesheets/03-sections/_header.sass",
+					"file": "Gemfile",
 					"settings":
 					{
-						"buffer_size": 399,
+						"buffer_size": 1463,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								112,
-								112
+								1068,
+								1068
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 108.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "Gemfile",
+					"file": "app/models/post.rb",
 					"settings":
 					{
-						"buffer_size": 1343,
+						"buffer_size": 90,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								949,
-								949
+								70,
+								70
 							]
 						],
 						"settings":
@@ -780,23 +804,53 @@
 				},
 				{
 					"buffer": 7,
-					"file": "app/assets/stylesheets/application.css.scss",
+					"file": "app/controllers/posts_controller.rb",
 					"settings":
 					{
-						"buffer_size": 823,
+						"buffer_size": 935,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								821,
-								821
+								214,
+								214
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/views/posts/index.html.slim",
+					"settings":
+					{
+						"buffer_size": 267,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								267,
+								267
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -848,6 +902,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"gemf",
+				"Gemfile"
+			]
 		],
 		"width": 0.0
 	},
