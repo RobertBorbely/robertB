@@ -26,3 +26,9 @@ section.container.home-content
   .col-30
     h2 Something to see
     hr
+    - @projects.each do |project|
+      .list-wrapper
+        h3 = link_to project.title, project
+        p.date = project.created_at.strftime("%A, %b %d")
+
+    = link_to 'View all projects', projects_path, class: "welcome-link"
