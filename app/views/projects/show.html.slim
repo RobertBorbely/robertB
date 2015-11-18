@@ -6,6 +6,8 @@ article.post
       hr
     section.post-content
       = markdown @project.description
+      .btn-wrapper
+        = link_to "View the website", @project.link, class: "btn-project"
       hr
     footer.post-footer
       h3 ="Share the #{@project.title}"
