@@ -7,7 +7,7 @@ article.post
     section.post-content
       = markdown @project.description
       .btn-wrapper
-        = link_to "View the website", @project.link, class: "btn-project"
+        = link_to "View the website", @project.link, class: "btn-project", target: '_blank'
       hr
     footer.post-footer
       h3 ="Share the #{@project.title}"
