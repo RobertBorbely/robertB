@@ -1,4 +1,12 @@
-h1 index
-
-- @categories.each do |category|
-	h1=category.title
+section.index-section
+  header
+    h3 Stuff I've written
+  section.content.container
+    - @categories.each do |category|
+      .title.wrapper
+        p.date= category.created_at.strftime("%A %b %d")
+        h2= link_to category.title, category
+        hr
+  footer.container
+    .apple_pagination
+      = will_paginate @categories, previous_label: '<i class="fa fa-arrow-left"></i>'.html_safe, next_label: '<i class="fa fa-arrow-right"></i>'.html_safe, container: false

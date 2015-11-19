@@ -6,6 +6,7 @@ section.index-section
       .title.wrapper
         p.date= post.created_at.strftime("%A %b %d")
         h2= link_to post.title, post
+        i.fa.fa-bookmark =post.category.title
         hr
   footer.container
     .apple_pagination

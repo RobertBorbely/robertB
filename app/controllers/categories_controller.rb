@@ -2,10 +2,11 @@ class CategoriesController < ApplicationController
 	before_action :find_by_id, only: [:show, :edit, :update, :destroy]
 
 	def index
-		@categories = Category.all
+		@categories = Category.all.order("created_at desc").paginate(page: params[:page], per_page: 10)
 	end
 
 	def show
+		@posts = @category.posts.order("created_at desc").paginate(page: params[:page], per_page: 10)
 	end
 
 	def new
@@ -40,7 +41,7 @@ class CategoriesController < ApplicationController
 	private
 
 	def find_by_id
-		@category = Category.find(params[:id])
+		@category = Category.friendly.find(params[:id])
 	end
 
 	def categories_params

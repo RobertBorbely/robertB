@@ -1,1 +1,12 @@
-h1 show
+section.index-section
+  header
+    h3 =@category.title
+  section.content.container
+    - @posts.each do |post|
+      .title.wrapper
+        p.date= post.created_at.strftime("%A %b %d")
+        h2= link_to post.title, post
+       	hr
+  footer.container
+    .apple_pagination
+      = will_paginate @posts, previous_label: '<i class="fa fa-arrow-left"></i>'.html_safe, next_label: '<i class="fa fa-arrow-right"></i>'.html_safe, container: false
