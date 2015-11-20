@@ -4,7 +4,9 @@ article.post
       p.date = @post.created_at.strftime("%A %b %d")
       h1 = @post.title
       - @post.tags.each do |tag|
-          =link_to tag.title, tag_path(tag)
+          =link_to tag_path(tag), class: "meta-link" do
+            i.fa.fa-tag
+            =tag.title 
       hr
     section.post-content
       = markdown @post.content

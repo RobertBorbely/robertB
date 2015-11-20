@@ -6,6 +6,10 @@ section.index-section
       .title.wrapper
         p.date= post.created_at.strftime("%A %b %d")
         h2= link_to post.title, post
+        - post.tags.each do |tag|
+          =link_to tag_path(tag), class: "meta-link" do
+            i.fa.fa-tag
+            =tag.title 
        	hr
   footer.container
     .apple_pagination

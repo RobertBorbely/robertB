@@ -1,6 +1,9 @@
 class TagsController < ApplicationController
+	def index
+	end
+
 	def show
-		@tag = Tag.find(params[:id])
+		@tag = Tag.friendly.find(params[:id])
 	end
 
 	private

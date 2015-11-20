@@ -1,0 +1,13 @@
+section.index-section
+  header
+    h3="Stuff I've written with '#{@tag.title}' tag"  
+  section.content.container
+  	- @tag.posts.each do |post|
+      .title.wrapper
+        p.date =post.created_at.strftime("%A %b %d")
+        h2 =link_to post.title, post
+        =link_to category_path(post.category.title.downcase), class: "meta-link" do
+          i.fa.fa-bookmark 
+          =post.category.title
+        hr
+  footer.container
