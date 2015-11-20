@@ -7,6 +7,8 @@ section.index-section
         p.date= post.created_at.strftime("%A %b %d")
         h2= link_to post.title, post
         i.fa.fa-bookmark =post.category.title
+        - post.tags.each do |tag|
+          =link_to tag.title, tag_path(tag)
         hr
   footer.container
     .apple_pagination

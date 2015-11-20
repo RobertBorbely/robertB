@@ -3,10 +3,11 @@ class PostsController < ApplicationController
 
   def index
     @posts = Post.all.order("created_at desc").paginate(page: params[:page], per_page: 10)
+    #@tags = @posts.tags
   end
 
   def show
-    
+
   end
 
   def new
@@ -39,10 +40,6 @@ class PostsController < ApplicationController
     @post.destroy
   end
 
-  def should_generate_new_friendly_id?
-    slug.blank? || title_changed?
-  end
-
   private
 
     def findby_id
@@ -50,6 +47,6 @@ class PostsController < ApplicationController
     end
 
     def post_params
-      params.require(:post).permit(:title, :content, :slug, :category_id)
+      params.require(:post).permit(:title, :content, :slug, :category_id, :tag_list)
     end
 end

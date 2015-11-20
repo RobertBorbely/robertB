@@ -40,11 +40,11 @@ class CategoriesController < ApplicationController
 
 	private
 
-	def find_by_id
-		@category = Category.friendly.find(params[:id])
-	end
+		def find_by_id
+			@category = Category.friendly.find(params[:id])
+		end
 
-	def categories_params
-		params.require(:category).permit(:title)
-	end
+		def categories_params
+			params.require(:category).permit(:title)
+		end
 end

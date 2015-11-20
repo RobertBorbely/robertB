@@ -8,5 +8,8 @@
 	=f.label :category_id, "Category"
 	=f.collection_select :category_id, Category.order(:title), :id, :title, include_blank:false
 
+	=f.label :tag_list
+	=f.text_field :tag_list
+
 
     =f.submit
