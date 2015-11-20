@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151119163506) do
+ActiveRecord::Schema.define(version: 20151120210841) do
 
   create_table "categories", force: :cascade do |t|
     t.string   "title"
@@ -47,6 +47,14 @@ ActiveRecord::Schema.define(version: 20151119163506) do
   add_index "posts", ["category_id"], name: "index_posts_on_category_id"
   add_index "posts", ["slug"], name: "index_posts_on_slug", unique: true
 
+  create_table "posts_tags", id: false, force: :cascade do |t|
+    t.integer "post_id"
+    t.integer "tag_id"
+  end
+
+  add_index "posts_tags", ["post_id"], name: "index_posts_tags_on_post_id"
+  add_index "posts_tags", ["tag_id"], name: "index_posts_tags_on_tag_id"
+
   create_table "projects", force: :cascade do |t|
     t.string   "title"
     t.text     "description"
@@ -57,5 +65,11 @@ ActiveRecord::Schema.define(version: 20151119163506) do
   end
 
   add_index "projects", ["slug"], name: "index_projects_on_slug", unique: true
+
+  create_table "tags", force: :cascade do |t|
+    t.string   "title"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
 end
