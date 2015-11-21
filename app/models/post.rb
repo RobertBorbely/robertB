@@ -5,7 +5,7 @@ class Post < ActiveRecord::Base
 
 	def tag_list
     	self.tags.collect do |tag|
-      		tag.name
+      		tag.title
     	end.join(", ")
   	end
 

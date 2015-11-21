@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"desc",
+				"description"
+			],
+			[
+				"ca",
+				"categories_params"
+			],
+			[
+				"cat",
+				"categories_params"
+			],
+			[
 				"trans",
 				"transition"
 			],
@@ -274,52 +286,16 @@
 			[
 				"en",
 				"encrypt"
-			],
-			[
-				"ca",
-				"caesar_cipher"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "app/assets/stylesheets/01-base/_base.sass",
+			"file": "lib/tasks/fill.rake",
 			"settings":
 			{
-				"buffer_size": 1677,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/category.rb",
-			"settings":
-			{
-				"buffer_size": 57,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/post.rb",
-			"settings":
-			{
-				"buffer_size": 113,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "db/schema.rb",
-			"settings":
-			{
-				"buffer_size": 2415,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/projects/show.html.slim",
-			"settings":
-			{
-				"buffer_size": 459,
+				"buffer_size": 665,
 				"line_ending": "Unix"
 			}
 		}
@@ -380,35 +356,50 @@
 	},
 	"file_history":
 	[
-		"/home/sas/Programok/robertB/db/migrate/20151118193008_add_category_id_to_post.rb",
-		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_posts.sass",
-		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_header.sass",
+		"/home/sas/Programok/robertB/app/views/tags/show.html.slim",
 		"/home/sas/Programok/robertB/app/views/posts/index.html.slim",
-		"/home/sas/Programok/robertB/app/controllers/posts_controller.rb",
-		"/home/sas/Programok/robertB/app/controllers/projects_controller.rb",
-		"/home/sas/Programok/robertB/app/views/projects/index.html.slim",
-		"/home/sas/Programok/robertB/app/views/projects/show.html.slim",
+		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_posts.sass",
+		"/home/sas/Programok/robertB/app/assets/stylesheets/01-base/_base.sass",
+		"/home/sas/Programok/robertB/app/views/categories/show.html.slim",
+		"/home/sas/Programok/robertB/app/views/posts/show.html.slim",
+		"/home/sas/Programok/robertB/app/controllers/tags_controller.rb",
 		"/home/sas/Programok/robertB/config/routes.rb",
+		"/home/sas/Programok/robertB/app/models/post.rb",
+		"/home/sas/Programok/robertB/db/schema.rb",
+		"/home/sas/Programok/robertB/Gemfile",
+		"/home/sas/Programok/robertB/app/controllers/categories_controller.rb",
+		"/home/sas/Programok/robertB/app/models/tag.rb",
+		"/home/sas/Programok/robertB/app/views/tags/_form.html.slim",
+		"/home/sas/Programok/robertB/app/controllers/posts_controller.rb",
+		"/home/sas/Programok/robertB/app/views/posts/_form.html.slim",
+		"/home/sas/Programok/robertB/db/migrate/20151120223901_add_slug_to_tag.rb",
+		"/home/sas/Programok/robertB/db/development.sqlite3",
+		"/home/sas/Programok/robertB/app/models/category.rb",
+		"/home/sas/Programok/robertB/app/models/project.rb",
+		"/home/sas/Programok/robertB/db/migrate/20151120210841_create_tags.rb",
+		"/home/sas/Programok/robertB/app/views/categories/index.html.slim",
+		"/home/sas/Programok/robertB/app/views/layouts/_header.html.slim",
+		"/home/sas/Programok/robertB/app/views/projects/index.html.slim",
+		"/home/sas/Programok/robertB/app/views/categories/_form.html.slim",
+		"/home/sas/Programok/robertB/app/views/categories/new.html.slim",
+		"/home/sas/Programok/robertB/app/views/categories/edit.html.slim",
+		"/home/sas/Programok/robertB/app/views/welcome/index.html.slim",
+		"/home/sas/Programok/robertB/app/views/projects/show.html.slim",
+		"/home/sas/Programok/robertB/db/migrate/20151118193008_add_category_id_to_post.rb",
+		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_header.sass",
+		"/home/sas/Programok/robertB/app/controllers/projects_controller.rb",
 		"/home/sas/Programok/robertB/app/views/projects/new.html.slim",
 		"/home/sas/Programok/robertB/app/views/projects/_form.html.slim",
 		"/home/sas/Programok/robertB/app/views/projects/edit.html.slim",
 		"/home/sas/Programok/robertB/app/controllers/welcome_controller.rb",
-		"/home/sas/Programok/robertB/app/views/welcome/index.html.slim",
-		"/home/sas/Programok/robertB/app/views/layouts/_header.html.slim",
-		"/home/sas/Programok/robertB/app/models/project.rb",
-		"/home/sas/Programok/robertB/app/views/posts/show.html.slim",
 		"/home/sas/Programok/robertB/app/assets/stylesheets/application.css.scss",
 		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_pygments.css.scss",
 		"/home/sas/Programok/robertB/app/helpers/application_helper.rb",
 		"/home/sas/Programok/robertB/app/views/posts/_disqus.html.erb",
-		"/home/sas/Programok/robertB/Gemfile",
-		"/home/sas/Programok/robertB/app/models/post.rb",
 		"/home/sas/Programok/robertB/app/views/posts/_disqus.erb.slim",
 		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_pygments.sass",
 		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_welcome.sass",
-		"/home/sas/Programok/robertB/app/assets/stylesheets/01-base/_base.sass",
 		"/home/sas/Programok/robertB/app/views/posts/edit.html.slim",
-		"/home/sas/Programok/robertB/app/views/posts/_form.html.slim",
 		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_footer.sass",
 		"/home/sas/Programok/robertB/app/views/layouts/_footer.html.slim",
 		"/home/sas/Programok/robertB/README.md",
@@ -492,22 +483,7 @@
 		"/home/sas/Programok/ehok_rails4/app/assets/stylesheets/header.sass",
 		"/home/sas/Programok/ehok_rails4/app/assets/stylesheets/base.sass",
 		"/home/sas/Programok/ACM/feynman.cpp",
-		"/home/sas/Programok/ACM/geoprob.cpp",
-		"/home/sas/Programok/ACM/revnum.cpp",
-		"/home/sas/Programok/ehok_rails4/app/assets/stylesheets/helper.scss",
-		"/home/sas/.config/sublime-text-2/Packages/Terminal/Default (Linux).sublime-keymap",
-		"/opt/RubyMine/bin/rubymine.vmoptions",
-		"/home/sas/Programok/RailsWp/Gemfile",
-		"/home/sas/Programok/RailsWp/app/apps/themes/rails_wp/views/admin/index.html.erb",
-		"/opt/RubyMine/bin/rubymine.sh",
-		"/home/sas/Letöltések/RubyMine/bin/rubymine.sh",
-		"/home/sas/Letöltések/RubyMine/bin/rubymine.vmoptions",
-		"/home/sas/Letöltések/RubyMine/bin/rubymine64.vmoptions",
-		"/home/sas/Dokumentumok/sokszog.c",
-		"/home/sas/Dokumentumok/ceaser.rb",
-		"/home/sas/Dokumentumok/alap1.c",
-		"/home/sas/Dokumentumok/alap2.c",
-		"/home/sas/Dokumentumok/Makefile"
+		"/home/sas/Programok/ACM/geoprob.cpp"
 	],
 	"find":
 	{
@@ -525,6 +501,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Hipster",
+			"Lorem",
+			"projects",
+			"categorie",
+			"post",
+			"Post",
 			"post",
 			"button",
 			"div",
@@ -588,141 +570,32 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/assets/stylesheets/01-base/_base.sass",
+					"file": "lib/tasks/fill.rake",
 					"settings":
 					{
-						"buffer_size": 1677,
+						"buffer_size": 665,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1494,
-								1494
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1566.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/models/category.rb",
-					"settings":
-					{
-						"buffer_size": 57,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								52,
-								52
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/models/post.rb",
-					"settings":
-					{
-						"buffer_size": 113,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								53,
-								53
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "db/schema.rb",
-					"settings":
-					{
-						"buffer_size": 2415,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								656,
+								656
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 216.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/views/projects/show.html.slim",
-					"settings":
-					{
-						"buffer_size": 459,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								298,
-								298
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 54.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -771,6 +644,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"",
+				"lib/tasks/fill.rake"
+			],
+			[
+				"sche",
+				"db/schema.rb"
+			],
 			[
 				"gemf",
 				"Gemfile"
