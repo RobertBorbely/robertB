@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"tex",
+				"text-align"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
 				"desc",
 				"description"
 			],
@@ -38,10 +46,6 @@
 			[
 				"margin",
 				"margin-bottom"
-			],
-			[
-				"tex",
-				"text-transform"
 			],
 			[
 				"font-st",
@@ -82,10 +86,6 @@
 			[
 				"off",
 				"offset-right"
-			],
-			[
-				"tran",
-				"transform"
 			],
 			[
 				"fo",
@@ -292,10 +292,10 @@
 	"buffers":
 	[
 		{
-			"file": "lib/tasks/fill.rake",
+			"file": "app/views/projects/_form.html.slim",
 			"settings":
 			{
-				"buffer_size": 665,
+				"buffer_size": 222,
 				"line_ending": "Unix"
 			}
 		}
@@ -356,41 +356,45 @@
 	},
 	"file_history":
 	[
+		"/home/sas/Programok/robertB/app/views/categories/_form.html.slim",
+		"/home/sas/Programok/robertB/app/views/categories/new.html.slim",
+		"/home/sas/Programok/robertB/app/views/categories/edit.html.slim",
+		"/home/sas/Programok/robertB/app/views/projects/new.html.slim",
+		"/home/sas/Programok/robertB/app/views/posts/new.html.slim",
+		"/home/sas/Programok/robertB/app/views/posts/_form.html.slim",
+		"/home/sas/Programok/robertB/app/assets/stylesheets/01-base/_base.sass",
+		"/home/sas/Programok/robertB/app/views/projects/edit.html.slim",
+		"/home/sas/Programok/robertB/app/models/post.rb",
+		"/home/sas/Programok/robertB/app/views/layouts/application.html.slim",
+		"/home/sas/Programok/robertB/app/models/project.rb",
+		"/home/sas/Programok/robertB/app/models/category.rb",
+		"/home/sas/Programok/robertB/app/views/posts/edit.html.slim",
+		"/home/sas/Programok/robertB/lib/tasks/populate.rake",
 		"/home/sas/Programok/robertB/app/views/tags/show.html.slim",
 		"/home/sas/Programok/robertB/app/views/posts/index.html.slim",
 		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_posts.sass",
-		"/home/sas/Programok/robertB/app/assets/stylesheets/01-base/_base.sass",
 		"/home/sas/Programok/robertB/app/views/categories/show.html.slim",
 		"/home/sas/Programok/robertB/app/views/posts/show.html.slim",
 		"/home/sas/Programok/robertB/app/controllers/tags_controller.rb",
 		"/home/sas/Programok/robertB/config/routes.rb",
-		"/home/sas/Programok/robertB/app/models/post.rb",
 		"/home/sas/Programok/robertB/db/schema.rb",
 		"/home/sas/Programok/robertB/Gemfile",
 		"/home/sas/Programok/robertB/app/controllers/categories_controller.rb",
 		"/home/sas/Programok/robertB/app/models/tag.rb",
 		"/home/sas/Programok/robertB/app/views/tags/_form.html.slim",
 		"/home/sas/Programok/robertB/app/controllers/posts_controller.rb",
-		"/home/sas/Programok/robertB/app/views/posts/_form.html.slim",
 		"/home/sas/Programok/robertB/db/migrate/20151120223901_add_slug_to_tag.rb",
 		"/home/sas/Programok/robertB/db/development.sqlite3",
-		"/home/sas/Programok/robertB/app/models/category.rb",
-		"/home/sas/Programok/robertB/app/models/project.rb",
 		"/home/sas/Programok/robertB/db/migrate/20151120210841_create_tags.rb",
 		"/home/sas/Programok/robertB/app/views/categories/index.html.slim",
 		"/home/sas/Programok/robertB/app/views/layouts/_header.html.slim",
 		"/home/sas/Programok/robertB/app/views/projects/index.html.slim",
-		"/home/sas/Programok/robertB/app/views/categories/_form.html.slim",
-		"/home/sas/Programok/robertB/app/views/categories/new.html.slim",
-		"/home/sas/Programok/robertB/app/views/categories/edit.html.slim",
 		"/home/sas/Programok/robertB/app/views/welcome/index.html.slim",
 		"/home/sas/Programok/robertB/app/views/projects/show.html.slim",
 		"/home/sas/Programok/robertB/db/migrate/20151118193008_add_category_id_to_post.rb",
 		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_header.sass",
 		"/home/sas/Programok/robertB/app/controllers/projects_controller.rb",
-		"/home/sas/Programok/robertB/app/views/projects/new.html.slim",
 		"/home/sas/Programok/robertB/app/views/projects/_form.html.slim",
-		"/home/sas/Programok/robertB/app/views/projects/edit.html.slim",
 		"/home/sas/Programok/robertB/app/controllers/welcome_controller.rb",
 		"/home/sas/Programok/robertB/app/assets/stylesheets/application.css.scss",
 		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_pygments.css.scss",
@@ -399,14 +403,11 @@
 		"/home/sas/Programok/robertB/app/views/posts/_disqus.erb.slim",
 		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_pygments.sass",
 		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_welcome.sass",
-		"/home/sas/Programok/robertB/app/views/posts/edit.html.slim",
 		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_footer.sass",
 		"/home/sas/Programok/robertB/app/views/layouts/_footer.html.slim",
 		"/home/sas/Programok/robertB/README.md",
 		"/home/sas/Programok/robertB/README.rdoc",
-		"/home/sas/Programok/robertB/app/views/layouts/application.html.slim",
 		"/home/sas/Programok/robertB/app/views/welcome/index.html.erb",
-		"/home/sas/Programok/robertB/app/views/posts/new.html.slim",
 		"/home/sas/Programok/robertB/app/views/posts/create.html.erb",
 		"/home/sas/Programok/robertB/app/views/posts/update.html.erb",
 		"/home/sas/Programok/robertB/robertB.sublime-project",
@@ -482,8 +483,7 @@
 		"/home/sas/Programok/ehok_rails4/app/views/welcome/_event_list.html.slim",
 		"/home/sas/Programok/ehok_rails4/app/assets/stylesheets/header.sass",
 		"/home/sas/Programok/ehok_rails4/app/assets/stylesheets/base.sass",
-		"/home/sas/Programok/ACM/feynman.cpp",
-		"/home/sas/Programok/ACM/geoprob.cpp"
+		"/home/sas/Programok/ACM/feynman.cpp"
 	],
 	"find":
 	{
@@ -575,27 +575,26 @@
 			[
 				{
 					"buffer": 0,
-					"file": "lib/tasks/fill.rake",
+					"file": "app/views/projects/_form.html.slim",
 					"settings":
 					{
-						"buffer_size": 665,
+						"buffer_size": 222,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								656,
-								656
+								222,
+								222
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 54.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
