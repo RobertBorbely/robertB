@@ -1,10 +1,18 @@
 section.index-section
   header
     h3 Stuff I've written
+    -if user_signed_in?
+      =link_to new_category_path do
+        i.fa.fa-plus
   section.content.container
     - @categories.each do |category|
       .title.wrapper
         p.date= category.created_at.strftime("%A %b %d")
+        - if user_signed_in?
+          =link_to edit_category_path(category) do
+            i.fa.fa-cog
+          =link_to category_path(category), method: :delete, data: { confirm: "Biztos vagy benne ?"} do
+            i.fa.fa-trash
         h2= link_to category.title, category
         hr
   footer.container

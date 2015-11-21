@@ -1,10 +1,18 @@
 section.index-section
   header
     h3 Stuff I've written
+    -if user_signed_in?
+      =link_to new_post_path do
+        i.fa.fa-plus
   section.content.container
     - @posts.each do |post|
       .title.wrapper
         p.date= post.created_at.strftime("%A %b %d")
+        - if user_signed_in?
+          =link_to edit_post_path(post) do
+            i.fa.fa-cog
+          =link_to post_path(post), method: :delete, data: { confirm: "Biztos vagy benne ?"} do
+            i.fa.fa-trash
         h2= link_to post.title, post
         = link_to category_path(post.category.title.downcase), class: "meta-link" do
           i.fa.fa-bookmark 

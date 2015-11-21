@@ -1,10 +1,18 @@
 section.index-section
   header
     h3 Stuff I've made
+    -if user_signed_in?
+      =link_to new_project_path do
+        i.fa.fa-plus
   section.content.container
     - @projects.each do |project|
       .title.wrapper
         p.date= project.created_at.strftime("%A %b %d")
+        - if user_signed_in?
+          =link_to edit_project_path(project) do
+            i.fa.fa-cog
+          =link_to project_path(project), method: :delete, data: { confirm: "Biztos vagy benne ?"} do
+            i.fa.fa-trash
         h2= link_to project.title, project
         hr
   footer.container
