@@ -1,6 +1,8 @@
 # Additional translations at https://github.com/plataformatec/devise/wiki/I18n
 
 en:
+  About_me: Something about me
+  welcome1: "My name is Borbély Róbert. I'm learning web development and web desing for one and a half year now and here is the time to showcase my work and share my learning experience with the community."
   devise:
     confirmations:
       confirmed: "Your email address has been successfully confirmed."

@@ -1,13 +1,12 @@
 section.container.home-content
   .col-40
-    h2 Something about me
+    h2=t :About_me
     hr
     p
-      | My name is Borbély Róbert. I'm learning web development and web desing for one and a half year now and here is the time to showcase my work and share my learning experience with the community
+      =t :welcome1
     p
       | At the moment I'm learning web development on my own and do some freelance work for the university. You can check out my on going projects 
-      = link_to projects_path do
-        | here.
+      = link_to "here.", projects_path 
 
     p
       | If you interested in my design work you can check out my 
