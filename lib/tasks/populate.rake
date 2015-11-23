@@ -29,5 +29,7 @@ namespace :db do
 		Post.find_each(&:save)
 		Project.find_each(&:save)
 		Category.find_each(&:save)
+
+		User.create(email: "asd@lol.hu", password: 123456789)
 	end
 end

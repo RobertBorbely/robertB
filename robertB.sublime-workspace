@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"ac",
+				"action_mailer"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"email",
+				"email"
+			],
+			[
+				"conta",
+				"Contact"
+			],
+			[
 				"tex",
 				"text-align"
 			],
@@ -142,10 +158,6 @@
 			[
 				"event",
 				"eventImg"
-			],
-			[
-				"con",
-				"containerHeight"
 			],
 			[
 				"ea",
@@ -292,10 +304,42 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/projects/_form.html.slim",
+			"file": "config/locales/devise.hu.yml",
 			"settings":
 			{
-				"buffer_size": 222,
+				"buffer_size": 2797,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/welcome/index.html.slim",
+			"settings":
+			{
+				"buffer_size": 999,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/locales/devise.en.yml",
+			"settings":
+			{
+				"buffer_size": 4263,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1598,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/posts_controller.rb",
+			"settings":
+			{
+				"buffer_size": 957,
 				"line_ending": "Unix"
 			}
 		}
@@ -356,47 +400,57 @@
 	},
 	"file_history":
 	[
+		"/home/sas/Programok/robertB/Gemfile",
+		"/home/sas/Programok/robertB/app/views/layouts/application.html.slim",
+		"/home/sas/Programok/robertB/app/controllers/posts_controller.rb",
+		"/home/sas/Programok/robertB/app/controllers/projects_controller.rb",
+		"/home/sas/Programok/robertB/app/controllers/categories_controller.rb",
+		"/home/sas/Programok/robertB/app/assets/stylesheets/application.css.scss",
+		"/home/sas/Programok/robertB/app/models/user.rb",
+		"/home/sas/Programok/robertB/config/routes.rb",
+		"/home/sas/Programok/robertB/app/views/devise/sessions/new.html.erb",
+		"/home/sas/Programok/robertB/app/views/layouts/_header.html.slim",
+		"/home/sas/Programok/robertB/app/views/posts/index.html.slim",
+		"/home/sas/Programok/robertB/app/views/projects/index.html.slim",
+		"/home/sas/Programok/robertB/app/views/categories/index.html.slim",
+		"/home/sas/Programok/robertB/app/assets/stylesheets/02-helper/_normalize.css.scss",
+		"/home/sas/Programok/robertB/app/controllers/contacts_controller.rb",
+		"/home/sas/Programok/robertB/app/models/contact.rb",
+		"/home/sas/Programok/robertB/app/views/contacts/_form.html.slim",
+		"/home/sas/Programok/robertB/app/views/contacts/create.html.slim",
+		"/home/sas/Programok/robertB/app/views/contacts/new.html.slim",
+		"/home/sas/Programok/robertB/app/assets/stylesheets/01-base/_base.sass",
+		"/home/sas/Programok/robertB/config/environments/production.rb",
+		"/home/sas/Programok/robertB/app/assets/javascripts/contacts.coffee",
+		"/home/sas/Programok/robertB/app/views/projects/_form.html.slim",
 		"/home/sas/Programok/robertB/app/views/categories/_form.html.slim",
-		"/home/sas/Programok/robertB/app/views/categories/new.html.slim",
 		"/home/sas/Programok/robertB/app/views/categories/edit.html.slim",
+		"/home/sas/Programok/robertB/app/views/categories/new.html.slim",
 		"/home/sas/Programok/robertB/app/views/projects/new.html.slim",
 		"/home/sas/Programok/robertB/app/views/posts/new.html.slim",
 		"/home/sas/Programok/robertB/app/views/posts/_form.html.slim",
-		"/home/sas/Programok/robertB/app/assets/stylesheets/01-base/_base.sass",
 		"/home/sas/Programok/robertB/app/views/projects/edit.html.slim",
 		"/home/sas/Programok/robertB/app/models/post.rb",
-		"/home/sas/Programok/robertB/app/views/layouts/application.html.slim",
 		"/home/sas/Programok/robertB/app/models/project.rb",
 		"/home/sas/Programok/robertB/app/models/category.rb",
 		"/home/sas/Programok/robertB/app/views/posts/edit.html.slim",
 		"/home/sas/Programok/robertB/lib/tasks/populate.rake",
 		"/home/sas/Programok/robertB/app/views/tags/show.html.slim",
-		"/home/sas/Programok/robertB/app/views/posts/index.html.slim",
 		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_posts.sass",
 		"/home/sas/Programok/robertB/app/views/categories/show.html.slim",
 		"/home/sas/Programok/robertB/app/views/posts/show.html.slim",
 		"/home/sas/Programok/robertB/app/controllers/tags_controller.rb",
-		"/home/sas/Programok/robertB/config/routes.rb",
 		"/home/sas/Programok/robertB/db/schema.rb",
-		"/home/sas/Programok/robertB/Gemfile",
-		"/home/sas/Programok/robertB/app/controllers/categories_controller.rb",
 		"/home/sas/Programok/robertB/app/models/tag.rb",
 		"/home/sas/Programok/robertB/app/views/tags/_form.html.slim",
-		"/home/sas/Programok/robertB/app/controllers/posts_controller.rb",
 		"/home/sas/Programok/robertB/db/migrate/20151120223901_add_slug_to_tag.rb",
 		"/home/sas/Programok/robertB/db/development.sqlite3",
 		"/home/sas/Programok/robertB/db/migrate/20151120210841_create_tags.rb",
-		"/home/sas/Programok/robertB/app/views/categories/index.html.slim",
-		"/home/sas/Programok/robertB/app/views/layouts/_header.html.slim",
-		"/home/sas/Programok/robertB/app/views/projects/index.html.slim",
 		"/home/sas/Programok/robertB/app/views/welcome/index.html.slim",
 		"/home/sas/Programok/robertB/app/views/projects/show.html.slim",
 		"/home/sas/Programok/robertB/db/migrate/20151118193008_add_category_id_to_post.rb",
 		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_header.sass",
-		"/home/sas/Programok/robertB/app/controllers/projects_controller.rb",
-		"/home/sas/Programok/robertB/app/views/projects/_form.html.slim",
 		"/home/sas/Programok/robertB/app/controllers/welcome_controller.rb",
-		"/home/sas/Programok/robertB/app/assets/stylesheets/application.css.scss",
 		"/home/sas/Programok/robertB/app/assets/stylesheets/03-sections/_pygments.css.scss",
 		"/home/sas/Programok/robertB/app/helpers/application_helper.rb",
 		"/home/sas/Programok/robertB/app/views/posts/_disqus.html.erb",
@@ -473,17 +527,7 @@
 		"/home/sas/Programok/ehok_rails4/app/views/document_categories/_document_category.html.slim",
 		"/home/sas/Programok/ehok_rails4/app/views/document_categories/index.html.erb",
 		"/home/sas/Programok/show.html.slim",
-		"/home/sas/Programok/ehok_rails4/app/views/layouts/application_old.html.erb",
-		"/home/sas/Programok/ehok_rails4/app/views/posts/_post.html.slim",
-		"/home/sas/Programok/ehok_rails4/app/views/posts/_post_show.html.slim",
-		"/home/sas/Programok/ACM/marbles.cpp",
-		"/home/sas/Letöltések/SPOJ 3442 The Last Digit.cpp",
-		"/home/sas/Programok/ACM/last_digit.cpp",
-		"/home/sas/Programok/ehok_rails4/app/views/welcome/index.html.slim",
-		"/home/sas/Programok/ehok_rails4/app/views/welcome/_event_list.html.slim",
-		"/home/sas/Programok/ehok_rails4/app/assets/stylesheets/header.sass",
-		"/home/sas/Programok/ehok_rails4/app/assets/stylesheets/base.sass",
-		"/home/sas/Programok/ACM/feynman.cpp"
+		"/home/sas/Programok/ehok_rails4/app/views/layouts/application_old.html.erb"
 	],
 	"find":
 	{
@@ -501,6 +545,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"post",
 			"Hipster",
 			"Lorem",
 			"projects",
@@ -570,31 +615,145 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/projects/_form.html.slim",
+					"file": "config/locales/devise.hu.yml",
 					"settings":
 					{
-						"buffer_size": 222,
+						"buffer_size": 2797,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								222,
-								222
+								232,
+								232
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage"
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 876.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/welcome/index.html.slim",
+					"settings":
+					{
+						"buffer_size": 999,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								106,
+								106
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config/locales/devise.en.yml",
+					"settings":
+					{
+						"buffer_size": 4263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								321,
+								321
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 903.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 1598,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1099,
+								1099
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/controllers/posts_controller.rb",
+					"settings":
+					{
+						"buffer_size": 957,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								748,
+								748
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 324.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -643,6 +802,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"gem",
+				"Gemfile"
+			],
 			[
 				"",
 				"lib/tasks/fill.rake"
