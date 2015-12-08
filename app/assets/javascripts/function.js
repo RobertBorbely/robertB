@@ -8,6 +8,8 @@
 
         $this.toggleClass('is-open');
         $navigation.toggleClass('is-open');
+
+        console.log('Click happened!');
     }
 
     function bindings () {
