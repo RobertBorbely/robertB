@@ -22,3 +22,79 @@
         padding: 30px 15px 30px 15px
         text-transform: capitalize
         font-weight: bold
+
+  .mobile-nav-toggle
+    display: none
+    width: 40px
+    height: 40px
+    margin-top: 10px
+    margin-right: 20px
+    float: right
+    align-items: center
+    cursor: pointer
+
+    span,
+    span:before,
+    span:after
+      content: ""
+      width: 100%
+      height: 2px
+      background: $grey
+      display: block
+      position: relative
+
+      transition: all .3s $ease
+
+    span:before
+      top: 12px
+
+    span:after
+      top: -14px
+
+    &.is-open span
+      background: transparent
+
+    &.is-open span:before,
+    &.is-open span:after
+      transform-origin: center
+      transform: rotate(45deg)
+      top: 0
+
+    &.is-open span:before
+      transform: rotate(-45deg)
+
+@media all and (max-width: 775px)
+  .main-nav
+    .menu-element-container
+      display: none
+
+    .mobile-nav-toggle
+      display: flex
+
+    .logo-container
+      .logo-img
+        width: 55px
+        height: 45px
+        padding-left: 15px
+
+  .mobile-nav.is-open
+    display: block
+    transform: translateY(0%)
+
+
+.mobile-nav
+  display: none
+  position: absolute
+  width: 100%
+  background: white
+  border: 1px solid $turqis
+  transform: translateY(-100%)
+  transition: all .3s $ease
+
+  ul
+    list-style-type: none
+
+  li
+    text-align: center
+    padding: 10
+

@@ -32,6 +32,7 @@ gem 'redcarpet', '~> 3.2.2'
 gem 'friendly_id', '~> 5.1.0'
 gem 'will_paginate', '~> 3.0.7'
 gem 'mail_form'
+gem 'susy', '~> 2.2', '>= 2.2.7'
 
 gem 'devise'
 
@@ -40,6 +41,8 @@ group :development, :test do
   gem 'byebug'
 
   gem 'faker'
+
+  gem 'puma'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
